@@ -5,7 +5,7 @@ int main() {
     int N;
     scanf("%d", &N);
     if (N < 1 || N > 1000){
-        printf("Erro no tamanho do vetor \n");
+        printf("Erro no tamanho do vetor\n");
         return 1;
     }
 
@@ -24,8 +24,8 @@ int main() {
         }
     }
 
-    printf("Menor valor: %d \n", menor);
-    printf("Posicao: %d \n", posicao);
+    printf("Menor valor: %d\n", menor);
+    printf("Posicao: %d\n", posicao);
 
     return 0;
 }
