@@ -59,11 +59,13 @@ int main() {
         Mergesort(0, N, v);
 
         for (j = 0; j < N; j++){
-            printf("%d ", v[j]);
+            if(j > 0) printf(" ");
+            printf("%d", v[j]);
         }
         printf("\n");
 
         free(v);
     }
     return 0;
+
 }
