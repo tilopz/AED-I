@@ -47,8 +47,8 @@ int verifica_sudoku (int matriz[9][9]){
         if (!verifica_lin(matriz, i) || !verifica_col(matriz, i)) return 0;
     }
     
-    for (i = 0; i < 3; i = i + 3){
-        for (j = 0; j < 3; j = j + 3){
+    for (i = 0; i < 9; i = i + 3){
+        for (j = 0; j < 9; j = j + 3){
             if (!verifica_quadrado(matriz, i, j)) return 0;
         }
     }
